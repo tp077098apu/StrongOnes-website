@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<configuration>
+  <!--
+    For a description of web.config changes see http://go.microsoft.com/fwlink/?LinkId=235367.
+
+    The following attributes can be set on the <httpRuntime> tag.
+      <system.Web>
+        <httpRuntime targetFramework="4.8" />
+      </system.Web>
+  -->
+	<connectionStrings>
+		<add name="Master_Database"
+			 connectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Master_Database.mdf;Integrated Security=True"
+			 providerName="System.Data.SqlClient" />
+	</connectionStrings>
+  <system.web>
+    <compilation debug="true" targetFramework="4.8"/>
+    <pages controlRenderingCompatibilityVersion="4.0"/>
+  </system.web>
+</configuration>
