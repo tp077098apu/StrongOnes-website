@@ -7,3 +7,5 @@ This is for WAPP group assignment.
 TBC (v1.3): Manage User (CRUD) and think of things to add in Admin Dashboard.
 
 -v1.4: Manage User module completed and tested. Waiting for Workout and Nutrition Module to finish for Manage Nutrition, Manage Workout and user Dashboard.
+
+-v1.5: Added Workout Module, may be subjected to updates if needed.
